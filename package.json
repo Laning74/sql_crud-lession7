@@ -1,0 +1,29 @@
+{
+  "name": "sql_crud-lession7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laning74/sql_crud-lession7.git"
+  },
+  "author": "Ingvild Langeland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laning74/sql_crud-lession7/issues"
+  },
+  "homepage": "https://github.com/Laning74/sql_crud-lession7#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.6.0",
+    "helmet": "^6.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "sqlite3": "^5.1.2"
+  }
+}
